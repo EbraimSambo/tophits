@@ -9,7 +9,7 @@
             <h3>Quero Tudo</h3>
             <p>Nga, Masta</p>
         </div>
-        <div class="download bi-arrow-down-circle"></div>
+        <div class="download bi-arrow-down-circle-fill"></div>
     </a>
 </article>
 
@@ -24,7 +24,7 @@
             <h3>Quero Tudo</h3>
             <p>Nga, Masta</p>
         </div>
-        <div class="download bi-arrow-down-circle"></div>
+        <div class="download bi-arrow-down-circle-fill"></div>
     </a>
 </article>
 
@@ -39,7 +39,7 @@
             <h3>Quero Tudo</h3>
             <p>Nga, Masta</p>
         </div>
-        <div class="download bi-arrow-down-circle"></div>
+        <div class="download bi-arrow-down-circle-fill"></div>
     </a>
 </article>
 
@@ -54,7 +54,7 @@
             <h3>Quero Tudo</h3>
             <p>Nga, Masta</p>
         </div>
-        <div class="download bi-arrow-down-circle"></div>
+        <div class="download bi-arrow-down-circle-fill"></div>
     </a>
 </article>
 
@@ -69,7 +69,7 @@
             <h3>Quero Tudo</h3>
             <p>Nga, Masta</p>
         </div>
-        <div class="download bi-arrow-down-circle"></div>
+        <div class="download bi-arrow-down-circle-fill"></div>
     </a>
 </article>
 
@@ -84,6 +84,6 @@
             <h3>Quero Tudo</h3>
             <p>Nga, Masta</p>
         </div>
-        <div class="download bi-arrow-down-circle"></div>
+        <div class="download bi-arrow-down-circle-fill"></div>
     </a>
 </article>

@@ -18,6 +18,10 @@ Route::get('/', function () {
     return view('pages.home');
 })->name('home');
 
+Route::get('/show', function () {
+    return view('pages.show-music');
+})->name('show');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

@@ -77,6 +77,25 @@ section {
   background: #5e07d1 !important;
 }
 
+.yellow {
+  background: #f6b016 !important;
+}
+
+.gradientYellow {
+  background: linear-gradient(to right, rgb(255, 255, 0), rgb(246, 176, 22)) !important;
+  color: #111 !important;
+  font-weight: bold !important;
+}
+
+.blue {
+  background: #0010D7 !important;
+}
+
+.blue:hover, .gradientYellow:hover {
+  background: rgba(184, 184, 184, 0.2392156863) !important;
+  color: #fff !important;
+}
+
 #mainHeader {
   display: flex;
   flex-direction: column;
@@ -100,6 +119,9 @@ section {
   background: rgba(204, 204, 204, 0.2392156863);
   box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.4);
   border-radius: 0.3rem;
+}
+#mainHeader nav ul li a:hover {
+  background: rgba(204, 204, 204, 0.0745098039);
 }
 #mainHeader nav form {
   margin-top: 2rem;
@@ -128,9 +150,25 @@ section {
   color: #fff;
 }
 
-#logoContainer #logo {
+#logo {
+  display: flex;
+  align-items: center;
+  gap: 0.1rem;
   font-size: 2rem;
-  color: #00cc01 !important;
+  font-weight: bold;
+}
+#logo .img {
+  height: 35px;
+  width: 35px;
+}
+#logo span:first-child {
+  color: #fff !important;
+}
+#logo span:last-child {
+  background-image: linear-gradient(to right, rgb(255, 255, 0), rgb(246, 176, 22));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 #descApp {
@@ -159,7 +197,7 @@ section {
   align-items: center;
 }
 #mainFooter #mapSiteFooter a:hover, #mainFooter #links-social a:hover {
-  color: #00cc01;
+  color: #FDF103;
 }
 #mainFooter #mapSiteFooter a {
   font-size: 1.1rem;
@@ -168,7 +206,7 @@ section {
   font-size: 1.2rem;
 }
 
-#start_home h2 {
+#start_home h2, #artist-home h2 {
   font-size: 3rem;
   margin-bottom: 2rem;
 }
@@ -219,7 +257,7 @@ section {
   bottom: 6%;
   right: 6%;
   font-size: 2.2rem;
-  color: #fff;
+  color: #FDF103 !important;
   display: none;
   animation: down 0.3s linear infinite alternate;
 }
@@ -228,6 +266,71 @@ section {
   100% {
     transform: translateY(-9px);
   }
+}
+#artists-container {
+  display: grid;
+  grid-template-columns: repeat(4, 0.89fr);
+  align-items: center;
+  gap: 1rem;
+}
+#artists-container .box {
+  padding: 2rem;
+}
+#artists-container .box img {
+  border-radius: 50%;
+  border: 0.6rem solid #5e5c5c;
+}
+#artists-container .box h3 {
+  text-align: center;
+  margin-top: 1.3rem;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+#showMuisc .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#showMuisc .container .show-music .cover {
+  height: 300px;
+  width: 300px;
+}
+#showMuisc .container .show-music .description {
+  width: 400px;
+  padding: 2rem 0.4rem;
+}
+#showMuisc .container .show-music .description h1 {
+  font-size: 2.3rem;
+}
+#showMuisc .container .show-music .description ul {
+  display: flex;
+  align-items: center;
+  gap: 1.7rem;
+  margin: 1.5rem 0;
+}
+#showMuisc .container .show-music .description ul li {
+  background: #6b6767;
+  padding: 0.6rem 1rem;
+}
+#showMuisc .container .show-music .description ul h2 {
+  font-family: sans-serif !important;
+  font-size: 1.2rem;
+}
+#showMuisc .container .show-music .description ul h2 span {
+  margin-left: 0.3rem;
+}
+#showMuisc .container .show-music .description .button-container {
+  display: flex;
+  gap: 1.3rem;
+  align-items: center;
+}
+#showMuisc .container .show-music .description .button-container .btn-download, #showMuisc .container .show-music .description .button-container .share {
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.4);
+  border-radius: 0.3rem;
+  font-weight: bold !important;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0.9rem 2rem;
 }
 
 /*# sourceMappingURL=global.css.map */
